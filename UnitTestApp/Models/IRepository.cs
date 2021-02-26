@@ -10,5 +10,6 @@ namespace UnitTestApp.Models
         IEnumerable<User> GetAll();
         User Get(int id);
         void Create(User user);
+        void Get();
     }
 }
